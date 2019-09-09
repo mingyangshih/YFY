@@ -1,0 +1,170 @@
+.pageThree{
+  width: 203mm;
+  height: 102mm;
+  position: relative;
+  .p3bg{
+    width: auto;
+    height: 64%;  
+    position: absolute;
+    right: 2mm;
+    // z-index: 2;
+  }
+  .forman{
+    width: 196mm;
+    height: 46mm;
+    position: absolute;
+    bottom: 2mm;
+    right: 3mm;
+  }
+}
+.pic{
+  width: 30.6mm;
+  height: 30.6mm;
+}
+.pic05{
+  width: 20.4mm;
+  height: 34.8mm;
+  position: absolute;
+  right:16mm;
+  top: 30mm;
+}
+.pic05Num{
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 3mm;
+  color:#ccac7d;
+  position: absolute;
+  right:6mm;
+  top: 28mm;
+}
+.pic06{
+  position: absolute;
+  left: 3mm;
+  top: 70mm;
+}
+.pic07{
+  position: absolute;
+  left: 36mm;
+  top: 70mm;
+}
+.pic08{
+  position: absolute;
+  left: 69mm;
+  top: 70mm;
+}
+.brownLine{
+  &.line01{
+    position: absolute;
+    left:3mm;
+    top: 2mm;   
+  }
+  &.line02{
+    position: absolute;
+    left:37mm;
+    top: 2mm;
+  }
+  &.line03{
+    position: absolute;
+    left:71mm;
+    top: 5.5mm;
+  }
+  &.line04{
+    position: absolute;
+    left:105mm;
+    top: 5.5mm;
+  }
+  &.line05{
+    position: absolute;
+    left:140mm;
+    top: 5.5mm;
+  }
+  &.line06{
+    position: absolute;
+    left:102mm;
+    top: 70mm;
+  }
+  &.line07{
+    position: absolute;
+    left:136mm;
+    top: 70mm;
+  }
+  &.line08{
+    position: absolute;
+    left:170mm;
+    // right:2mm;
+    top: 70mm;
+  }
+  .p3productname{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 3mm;
+    color:#ccac7d;
+    margin-top: 2mm;
+  }
+  
+  .des01{
+    width: 28.6mm;
+    height: 10.2mm;
+    margin-top: 2mm;
+  }
+  .pic01{
+    margin-top: 2mm;
+  }
+  .des02{
+    width: 30.6mm;
+    height: 11.3mm;
+    margin-top: 2mm;
+  }
+  .pic02wrap{
+    width: 30.6mm;  
+    height: 30.6mm;
+    background-color: #dfe1d1;
+    margin-top: .8mm;
+    box-sizing: border-box;
+    position: relative;
+    padding-top: 6.5mm;
+    p{
+      position: absolute;
+      left: 25mm;
+      top: 1.5mm;
+      font-family: 'Noto Sans TC', sans-serif;
+      font-size: 3mm;
+      color:#ccac7d;
+    }
+  }
+  .pic02{
+    width: 22.4mm; 
+    height: 20mm;
+    display: block;
+    margin: auto;
+  }
+  .des03{
+    width: 31.4mm;
+    height: 13mm;
+    margin-top: 2mm;
+  }
+  .des04{
+    width: 32mm;
+    height: 13.2mm;
+    margin-top: 2mm;
+  }
+  
+  .des05{
+    width: 30mm;
+    height: 13.2mm;
+    margin-top: 2mm;
+  }
+  .des06{
+    width: 30mm;
+    height: 13.2mm;
+    margin-top: 2mm;
+  }
+  .des07{
+    width: 30mm;
+    height: 13.2mm;
+    margin-top: 2mm;
+  }
+  .des08{
+    width: 30.6mm;
+    height: 13.2mm;
+    margin-top: 2mm;
+  }
+}

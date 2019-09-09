@@ -1,0 +1,100 @@
+%p6SmallTitle{
+  .p6SmallTitle{  
+    color: white;
+    font-family: 'Noto Sans TC', sans-serif;
+    margin-left: 2mm;      
+  }
+}
+.pageSix{
+  width: 203mm;
+  height: 108mm;
+  position: relative;
+  background-color:#d21a26;
+  .rainbowBar{
+    left: 7mm;
+    top: 5mm;
+    position: absolute;
+  }
+  .p6Title{
+    font-size: 6.8mm;
+    letter-spacing: .2mm;
+    color:white;
+    position: absolute;
+    left: 13mm;
+    top: 5mm;
+    span{
+      font-size: 5mm;
+      font-family: 'Noto Sans TC', sans-serif;
+    }
+  }
+  .leftBlock{
+    width: 137mm;
+    height: 84mm;
+    background-color: white;
+    position: absolute;
+    left: 2mm;
+    top: 14mm;
+    .bonus{
+      width: 53mm;
+      height: 5mm;
+      background-color:#d21a26;
+      position: absolute;
+      top:2mm;
+      left: 2mm;
+      @extend %p6SmallTitle;
+      .p6SmallContent{
+        width: 53mm;
+        height: 34mm;
+        box-sizing: border-box;
+        border: 1px solid black;
+        border-top: 0;
+        margin-top: .8mm;
+        font-size: 3.4mm;
+        font-weight: bold;
+        padding-top: 2.8mm;
+        padding-left: 1.7mm;
+        font-family: 'Noto Sans TC', sans-serif;
+      }
+      
+    }
+    .popular{
+      width: 79mm;
+      height: 5mm;
+      background-color:#d21a26;
+      position: absolute;
+      top:2mm;
+      left: 57mm;
+      @extend %p6SmallTitle;
+    }
+    .cloth{
+      width: 53mm;
+      height: 5mm;
+      background-color:#d21a26;
+      position: absolute;
+      top:43mm;
+      left: 2mm;
+      @extend %p6SmallTitle;
+    }
+    .shoes{
+      width: 79mm;
+      height: 5mm;
+      background-color:#d21a26;
+      position: absolute;
+      top:43mm;
+      left: 57mm;
+      @extend %p6SmallTitle;
+    }    
+  }
+  .rightBlock{
+    position: absolute;
+    left: 140mm;
+    top: 5mm;
+    .phoneAd{
+      width: 62mm;
+      height: 94mm;
+    }
+  }
+  footer{
+    background-color:#e23382;
+  }
+}

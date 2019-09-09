@@ -1,0 +1,19 @@
+.backCover{
+  width: 203mm;
+  height: 108mm;
+  position: relative;
+  font-family: 'Noto Sans TC', sans-serif;
+  .backCoverImg{
+    width: 203mm;
+    height: 108mm;
+    position: absolute;
+    z-index: 1;
+  }
+  .information{
+    position: absolute;
+    z-index: 2;
+    font-size: 5mm;
+    left: 15mm;
+    top: 14mm;
+  }
+}

@@ -1,0 +1,215 @@
+%pTitleMarginTop{
+  p{
+    margin-top: 2mm;
+    margin-left: -1mm;
+  }  
+}
+.pageFour{
+  width: 203mm;
+  height: 108mm;
+  position: relative;
+  font-family: 'Noto Sans TC', sans-serif;
+  color:#ac875b;
+}
+.pic09{
+  position: absolute;
+  top:5mm;
+  left:5mm;
+  width: 92mm;
+  height: 61mm;
+}
+.des09{
+  position: absolute;
+  top: 5mm;
+  // right: 2mm;
+  left: 102mm;
+  width: 97mm;
+  height: 17.6mm;
+  background-color: #f0e4d4;
+  font-family: 'Noto Sans TC', sans-serif;
+  color:#ac875b;
+  box-sizing: border-box;
+  .backYard{
+    position: absolute;
+    top: 2mm;
+    left: 1mm;
+  }
+  .a93f{
+    position: absolute;
+    left: 1.5mm;
+    top: 6.5mm;
+    color: #125438;
+  }
+  .des09Detail{
+    width: 171mm;
+    position: absolute;
+    left: -36.7mm;
+    top: 7.5mm;
+    line-height:4mm;
+    color: black;
+  }
+}
+.line10{
+  position: absolute;
+  @extend %pTitleMarginTop;
+  left: 102mm;
+  top: 28mm;
+  .secondTitle{
+    color: #125438;
+    margin-left: -6mm;
+    margin-top: 1mm;
+  }
+  .thirdTitle{
+    color:black;
+    margin-left: -11mm;
+    margin-top: -1mm
+  }
+  .price{
+    color: black;
+    margin-left: -5mm;
+    margin-top: -1mm;
+    font-weight: bold;
+  }
+  span{
+    position: absolute;
+    font-weight: normal;
+  }
+  .pic10{
+    margin-top: 2mm;
+  }
+}
+.line11{
+  position: absolute;
+  // right:37mm;
+  left: 135mm;
+  top: 28mm;
+  @extend %pTitleMarginTop;
+  .secondTitle{
+    color: #125438;
+    margin-left: -7.6mm;
+    margin-top: 1mm;
+  }
+  .thirdTitle{
+    color:black;
+    margin-left: -12.5mm;
+    margin-top: -1mm
+  }
+  .price{
+    color: black;
+    margin-left: -6mm;
+    margin-top: -1mm;
+    font-weight: bold;
+  }
+  .pic11{
+    margin-top: 2mm;
+  }
+}
+.line12{
+  position: absolute;
+  left: 168mm;
+  top: 28mm;
+  @extend %pTitleMarginTop;
+  .secondTitle{
+    color: #125438;
+    margin-left: -6.8mm;
+    margin-top: 1mm;
+  }
+  .thirdTitle{
+    color:black;
+    margin-left: -11.5mm;
+    margin-top: -1mm
+  }
+  .price{
+    color: black;
+    margin-left: -5mm;
+    margin-top: -1mm;
+    font-weight: bold;
+  }
+  .pic12{
+    margin-top: 2mm;
+  }
+}
+.line13{
+  position: absolute;
+  left: 102mm;
+  top: 81mm;
+  @extend %pTitleMarginTop;
+  .secondTitle{
+    color: #125438;
+    margin-left: -9.6mm;
+    margin-top: 0mm;
+  }
+  .thirdTitle{
+    color:black;
+    margin-left: -12mm;
+    margin-top: -2mm
+  }
+  .price{
+    color: black;
+    margin-left: -5mm;
+    margin-top: -1mm;
+    font-weight: bold;
+  }
+}
+.line14{
+  position: absolute;
+  left: 135mm;
+  top: 81mm;
+  @extend %pTitleMarginTop;
+  .secondTitle{
+    color: #125438;
+    margin-left: -6.9mm;
+    margin-top: 1mm;
+  }
+  .thirdTitle{
+    color:black;
+    margin-left: -12mm;
+    margin-top: -.5mm
+  }
+  .price{
+    color: black;
+    margin-left: -7mm;
+    margin-top: -1mm;
+    font-weight: bold;
+  }
+}
+.line15{
+  position: absolute;
+  left: 168mm;
+  top: 81mm;
+  @extend %pTitleMarginTop;
+  .secondTitle{
+    color: #125438;
+    margin-left: -6.9mm;
+    margin-top: 1mm;
+  }
+  .thirdTitle{
+    color:black;
+    margin-left: -12mm;
+    margin-top: -.5mm
+  }
+  .price{
+    color: black;
+    margin-left: -7mm;
+    margin-top: -1mm;
+    font-weight: bold;
+  }
+}
+.pic13{
+  position: absolute;
+  left: 5mm;
+  top: 70mm;
+}
+.pic14{
+  position: absolute;
+  left: 37mm;
+  top: 70mm;
+}
+.pic15{
+  position: absolute;
+  left: 70mm;
+  top: 70mm;
+}
+.p4Footer{
+  background-color:#ccac7d;
+}

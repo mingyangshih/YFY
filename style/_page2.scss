@@ -1,0 +1,135 @@
+@font-face {
+  font-family: aeromatics;
+  src: url(../aeromaticsdisplayregular.ttf);
+}
+.pageTwo{
+  width: 203mm;
+  height: 102mm;
+  background: linear-gradient(to right, #dfdfdf 0%, white 3.43%, white 91%, #dfdfdf 100%);
+  position: relative;
+  .wrapPage2{
+    display: flex;
+  }
+}
+.wrapPage2{
+  .item{
+    width: 43mm;
+    height: 72mm;
+    background: linear-gradient(to right, #e5e5e5 0%, white 3.43%, white 91%, #dedede 100%);
+    margin-top: 14mm;
+    border-radius: 3mm;
+    position: relative;
+    font-size: 2mm;
+  }
+  .item:first-child{
+    margin-left: 10mm;
+  }
+  .item+.item{
+    margin-left: 3.5mm;
+  }
+}
+.item{
+  img{
+    margin: auto;
+    display: block;
+    
+  }
+  .p1down1{
+    width: 11.5mm;
+    height: 23mm;   
+    margin-top: 12mm; 
+  }
+  .p1down2{
+    width: 13.7mm;
+    height: 30.6mm;
+    margin-top: 7.7mm;
+  }
+  .p1down3{
+    width: 20mm;
+    height: 34mm;
+    margin-top: 6mm;
+  }
+  .p1down4{
+    width: 7.4mm;
+    height: 34.2mm;
+    margin-top: 6mm;
+  }
+}
+.badge{
+  width: 14mm;
+  height: 3.5mm;
+  font-size: xx-small;
+  background: linear-gradient(to right, white 0%,#d4a14a 18.4%, #b68a4d 50%,#d4a14a 81.4%, white  100%);
+  color: white;
+  text-align: center;
+  line-height: 3.5mm;
+  &.positionSet{
+    position: absolute;
+    right: 2mm;
+    bottom:27mm;
+  }
+  .badgeImg{
+    width: 14mm;
+    height: 3.5mm;
+  }
+}
+.page1des1{
+  width: 38mm;  
+  height: 21.8mm;
+  position: absolute;
+  bottom: 4mm;
+  left: 2mm;
+}
+.page1des2{
+  width: 37.8mm;  
+  height: 22mm;
+  position: absolute;
+  bottom: 4mm;
+  left: 3.1mm;
+}
+.page1des3{
+  width: 38.4mm;  
+  height: 22.4mm;
+  position: absolute;
+  bottom: 4mm;
+  left: 3.1mm;
+}
+.page1des4{
+  width: 37.4mm;  
+  height: 22.4mm;
+  position: absolute;
+  bottom: 4mm;
+  left: 3.1mm;
+}
+.littleword{
+  // font-size: 2mm;
+  color:#ada9a8;
+  margin-top: 4mm;
+  position: absolute;
+  right:0mm;
+}
+footer{
+  width: 100%;
+  height: 5mm;
+  position: absolute;
+  bottom: 0;
+  background-color: #bfbdbe;
+  color:white;
+  font-size: 3.5mm;
+  font-family: 'Noto Sans TC', sans-serif;
+  p{
+    margin-left: 19mm;
+    margin-top: .8mm;
+  }
+}
+// .name{
+//   font-family: 'Open Sans', sans-serif;
+//   font-weight: bold;
+//   font-size: 3mm;
+//   text-align: center;
+//   position: absolute;
+//   bottom: 22mm;
+//   width: 100%;
+//   letter-spacing: 0.1mm;
+//   word-spacing:.5mm;
+// }

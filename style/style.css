@@ -1,0 +1,1296 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.brownLine {
+  width: 30mm;
+  height: 0.8mm;
+  background-color: #ccac7d;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.fontSize1mm {
+  font-size: 6.4px;
+  -webkit-transform: scale(0.54);
+          transform: scale(0.54);
+}
+
+.fontSize2mm {
+  font-size: 8px;
+  -webkit-transform: scale(0.67);
+          transform: scale(0.67);
+}
+
+.fontSize3mm {
+  font-size: 11px;
+  -webkit-transform: scale(0.92);
+          transform: scale(0.92);
+}
+
+.rainbowBar {
+  width: 1mm;
+  height: 8mm;
+  background: -webkit-gradient(linear, left top, left bottom, from(#e83227), color-stop(#e94d1c), color-stop(#f7ea12), color-stop(#07903e), color-stop(#0d72ba), color-stop(#34a2dd), to(#7d3090));
+  background: linear-gradient(to bottom, #e83227, #e94d1c, #f7ea12, #07903e, #0d72ba, #34a2dd, #7d3090);
+}
+
+.dashBox {
+  width: 25.5mm;
+  height: 31.5mm;
+  margin-top: 1.8mm;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 0.3mm dashed #5c5c5c;
+  padding-top: 1mm;
+  padding-left: 1mm;
+  position: relative;
+  font-family: 'Noto Sans TC', sans-serif;
+  vertical-align: top;
+}
+
+.dashBox .qrcode {
+  width: 8mm;
+  height: 8mm;
+  margin-top: 1mm;
+}
+
+.dashBox .p6down1, .dashBox .p6down2, .dashBox .p6down3, .dashBox .p6down4, .dashBox .p6down5, .dashBox .p6down6, .dashBox .p6down7, .dashBox .p6down8 {
+  width: 10mm;
+  height: 10mm;
+  position: absolute;
+  right: 1mm;
+}
+
+.dashBox .p6down1 {
+  margin-top: 1mm;
+}
+
+.dashBox .p6des1, .dashBox .p6des2, .dashBox .p6des3, .dashBox .p6des4, .dashBox .p6des5, .dashBox .p6des6, .dashBox .p6des7, .dashBox .p6des8 {
+  width: 23mm;
+  height: 16.5mm;
+}
+
+.dashBox .p6des3 {
+  margin-top: 1mm;
+}
+
+.wrap {
+  width: 203mm;
+  height: 97mm;
+  margin: auto;
+}
+
+.cover {
+  width: 203mm;
+  height: 97mm;
+  margin: auto;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  z-index: 3;
+  -webkit-transition: -webkit-transform 1.2s;
+  transition: -webkit-transform 1.2s;
+  transition: transform 1.2s;
+  transition: transform 1.2s, -webkit-transform 1.2s;
+}
+
+.coverImg {
+  width: 203mm;
+  height: 97mm;
+}
+
+.backCover {
+  width: 203mm;
+  height: 108mm;
+  position: relative;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+.backCover .backCoverImg {
+  width: 203mm;
+  height: 108mm;
+  position: absolute;
+  z-index: 1;
+}
+
+.backCover .information {
+  position: absolute;
+  z-index: 2;
+  font-size: 5mm;
+  left: 15mm;
+  top: 14mm;
+}
+
+@font-face {
+  font-family: roundedelegance;
+  src: url(../roundedelegance.ttf);
+}
+
+.pageOne {
+  width: 203mm;
+  height: 97mm;
+  margin: 0 auto;
+  background: -webkit-gradient(linear, left top, right top, from(#dfdfdf), color-stop(3.43%, white), color-stop(91%, white), to(#dfdfdf));
+  background: linear-gradient(to right, #dfdfdf 0%, white 3.43%, white 91%, #dfdfdf 100%);
+  position: relative;
+}
+
+.title {
+  width: 67.3mm;
+  height: 8mm;
+  position: absolute;
+  left: 15mm;
+  top: 21mm;
+}
+
+.technology {
+  color: white;
+  background-color: #b1b1b1;
+  text-align: center;
+  width: 22.7mm;
+  height: 4.3mm;
+  padding-top: .5mm;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: absolute;
+  left: 16mm;
+  top: 36mm;
+  line-height: 3.3mm;
+}
+
+.newProduct {
+  font-size: 5.5mm;
+  font-family: 'Noto Sans TC', sans-serif;
+  position: absolute;
+  left: 16mm;
+  top: 47mm;
+  font-weight: bold;
+  letter-spacing: .5mm;
+  line-height: 5.5mm;
+}
+
+.detail {
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 0;
+  font-weight: bold;
+  position: absolute;
+  left: 16mm;
+  top: 58mm;
+}
+
+.detail span {
+  font-size: 7.3mm;
+  letter-spacing: 1mm;
+  margin-right: 4.8mm;
+}
+
+.NT {
+  font-family: roundedelegance;
+  font-size: 11mm;
+  color: #1e62a3;
+  position: absolute;
+  left: 17mm;
+  top: 71mm;
+  letter-spacing: 1.2mm;
+  font-weight: bold;
+  font-stretch: ultra-expanded;
+}
+
+.NT .NTimg {
+  width: 63.6mm;
+  height: 12.3mm;
+}
+
+.sendCoupon {
+  font-family: roundedelegance,'Noto Sans TC';
+  position: absolute;
+  left: 16.8mm;
+  top: 83.2mm;
+  font-size: 5mm;
+  color: #1b68b0;
+  letter-spacing: 0.7mm;
+}
+
+.topic {
+  width: 82mm;
+  height: 60.6mm;
+  position: absolute;
+  top: 23.6mm;
+  right: 0;
+}
+
+@font-face {
+  font-family: aeromatics;
+  src: url(../aeromaticsdisplayregular.ttf);
+}
+
+.pageTwo {
+  width: 203mm;
+  height: 102mm;
+  background: -webkit-gradient(linear, left top, right top, from(#dfdfdf), color-stop(3.43%, white), color-stop(91%, white), to(#dfdfdf));
+  background: linear-gradient(to right, #dfdfdf 0%, white 3.43%, white 91%, #dfdfdf 100%);
+  position: relative;
+}
+
+.pageTwo .wrapPage2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.wrapPage2 .item {
+  width: 43mm;
+  height: 72mm;
+  background: -webkit-gradient(linear, left top, right top, from(#e5e5e5), color-stop(3.43%, white), color-stop(91%, white), to(#dedede));
+  background: linear-gradient(to right, #e5e5e5 0%, white 3.43%, white 91%, #dedede 100%);
+  margin-top: 14mm;
+  border-radius: 3mm;
+  position: relative;
+  font-size: 2mm;
+}
+
+.wrapPage2 .item:first-child {
+  margin-left: 10mm;
+}
+
+.wrapPage2 .item + .item {
+  margin-left: 3.5mm;
+}
+
+.item img {
+  margin: auto;
+  display: block;
+}
+
+.item .p1down1 {
+  width: 11.5mm;
+  height: 23mm;
+  margin-top: 12mm;
+}
+
+.item .p1down2 {
+  width: 13.7mm;
+  height: 30.6mm;
+  margin-top: 7.7mm;
+}
+
+.item .p1down3 {
+  width: 20mm;
+  height: 34mm;
+  margin-top: 6mm;
+}
+
+.item .p1down4 {
+  width: 7.4mm;
+  height: 34.2mm;
+  margin-top: 6mm;
+}
+
+.badge {
+  width: 14mm;
+  height: 3.5mm;
+  font-size: xx-small;
+  background: -webkit-gradient(linear, left top, right top, from(white), color-stop(18.4%, #d4a14a), color-stop(50%, #b68a4d), color-stop(81.4%, #d4a14a), to(white));
+  background: linear-gradient(to right, white 0%, #d4a14a 18.4%, #b68a4d 50%, #d4a14a 81.4%, white 100%);
+  color: white;
+  text-align: center;
+  line-height: 3.5mm;
+}
+
+.badge.positionSet {
+  position: absolute;
+  right: 2mm;
+  bottom: 27mm;
+}
+
+.badge .badgeImg {
+  width: 14mm;
+  height: 3.5mm;
+}
+
+.page1des1 {
+  width: 38mm;
+  height: 21.8mm;
+  position: absolute;
+  bottom: 4mm;
+  left: 2mm;
+}
+
+.page1des2 {
+  width: 37.8mm;
+  height: 22mm;
+  position: absolute;
+  bottom: 4mm;
+  left: 3.1mm;
+}
+
+.page1des3 {
+  width: 38.4mm;
+  height: 22.4mm;
+  position: absolute;
+  bottom: 4mm;
+  left: 3.1mm;
+}
+
+.page1des4 {
+  width: 37.4mm;
+  height: 22.4mm;
+  position: absolute;
+  bottom: 4mm;
+  left: 3.1mm;
+}
+
+.littleword {
+  color: #ada9a8;
+  margin-top: 4mm;
+  position: absolute;
+  right: 0mm;
+}
+
+footer {
+  width: 100%;
+  height: 5mm;
+  position: absolute;
+  bottom: 0;
+  background-color: #bfbdbe;
+  color: white;
+  font-size: 3.5mm;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+footer p {
+  margin-left: 19mm;
+  margin-top: .8mm;
+}
+
+.pageThree {
+  width: 203mm;
+  height: 102mm;
+  position: relative;
+}
+
+.pageThree .p3bg {
+  width: auto;
+  height: 64%;
+  position: absolute;
+  right: 2mm;
+}
+
+.pageThree .forman {
+  width: 196mm;
+  height: 46mm;
+  position: absolute;
+  bottom: 2mm;
+  right: 3mm;
+}
+
+.pic {
+  width: 30.6mm;
+  height: 30.6mm;
+}
+
+.pic05 {
+  width: 20.4mm;
+  height: 34.8mm;
+  position: absolute;
+  right: 16mm;
+  top: 30mm;
+}
+
+.pic05Num {
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 3mm;
+  color: #ccac7d;
+  position: absolute;
+  right: 6mm;
+  top: 28mm;
+}
+
+.pic06 {
+  position: absolute;
+  left: 3mm;
+  top: 70mm;
+}
+
+.pic07 {
+  position: absolute;
+  left: 36mm;
+  top: 70mm;
+}
+
+.pic08 {
+  position: absolute;
+  left: 69mm;
+  top: 70mm;
+}
+
+.brownLine.line01 {
+  position: absolute;
+  left: 3mm;
+  top: 2mm;
+}
+
+.brownLine.line02 {
+  position: absolute;
+  left: 37mm;
+  top: 2mm;
+}
+
+.brownLine.line03 {
+  position: absolute;
+  left: 71mm;
+  top: 5.5mm;
+}
+
+.brownLine.line04 {
+  position: absolute;
+  left: 105mm;
+  top: 5.5mm;
+}
+
+.brownLine.line05 {
+  position: absolute;
+  left: 140mm;
+  top: 5.5mm;
+}
+
+.brownLine.line06 {
+  position: absolute;
+  left: 102mm;
+  top: 70mm;
+}
+
+.brownLine.line07 {
+  position: absolute;
+  left: 136mm;
+  top: 70mm;
+}
+
+.brownLine.line08 {
+  position: absolute;
+  left: 170mm;
+  top: 70mm;
+}
+
+.brownLine .p3productname {
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 3mm;
+  color: #ccac7d;
+  margin-top: 2mm;
+}
+
+.brownLine .des01 {
+  width: 28.6mm;
+  height: 10.2mm;
+  margin-top: 2mm;
+}
+
+.brownLine .pic01 {
+  margin-top: 2mm;
+}
+
+.brownLine .des02 {
+  width: 30.6mm;
+  height: 11.3mm;
+  margin-top: 2mm;
+}
+
+.brownLine .pic02wrap {
+  width: 30.6mm;
+  height: 30.6mm;
+  background-color: #dfe1d1;
+  margin-top: .8mm;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: relative;
+  padding-top: 6.5mm;
+}
+
+.brownLine .pic02wrap p {
+  position: absolute;
+  left: 25mm;
+  top: 1.5mm;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 3mm;
+  color: #ccac7d;
+}
+
+.brownLine .pic02 {
+  width: 22.4mm;
+  height: 20mm;
+  display: block;
+  margin: auto;
+}
+
+.brownLine .des03 {
+  width: 31.4mm;
+  height: 13mm;
+  margin-top: 2mm;
+}
+
+.brownLine .des04 {
+  width: 32mm;
+  height: 13.2mm;
+  margin-top: 2mm;
+}
+
+.brownLine .des05 {
+  width: 30mm;
+  height: 13.2mm;
+  margin-top: 2mm;
+}
+
+.brownLine .des06 {
+  width: 30mm;
+  height: 13.2mm;
+  margin-top: 2mm;
+}
+
+.brownLine .des07 {
+  width: 30mm;
+  height: 13.2mm;
+  margin-top: 2mm;
+}
+
+.brownLine .des08 {
+  width: 30.6mm;
+  height: 13.2mm;
+  margin-top: 2mm;
+}
+
+.line10 p, .line11 p, .line12 p, .line13 p, .line14 p, .line15 p {
+  margin-top: 2mm;
+  margin-left: -1mm;
+}
+
+.pageFour {
+  width: 203mm;
+  height: 108mm;
+  position: relative;
+  font-family: 'Noto Sans TC', sans-serif;
+  color: #ac875b;
+}
+
+.pic09 {
+  position: absolute;
+  top: 5mm;
+  left: 5mm;
+  width: 92mm;
+  height: 61mm;
+}
+
+.des09 {
+  position: absolute;
+  top: 5mm;
+  left: 102mm;
+  width: 97mm;
+  height: 17.6mm;
+  background-color: #f0e4d4;
+  font-family: 'Noto Sans TC', sans-serif;
+  color: #ac875b;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.des09 .backYard {
+  position: absolute;
+  top: 2mm;
+  left: 1mm;
+}
+
+.des09 .a93f {
+  position: absolute;
+  left: 1.5mm;
+  top: 6.5mm;
+  color: #125438;
+}
+
+.des09 .des09Detail {
+  width: 171mm;
+  position: absolute;
+  left: -36.7mm;
+  top: 7.5mm;
+  line-height: 4mm;
+  color: black;
+}
+
+.line10 {
+  position: absolute;
+  left: 102mm;
+  top: 28mm;
+}
+
+.line10 .secondTitle {
+  color: #125438;
+  margin-left: -6mm;
+  margin-top: 1mm;
+}
+
+.line10 .thirdTitle {
+  color: black;
+  margin-left: -11mm;
+  margin-top: -1mm;
+}
+
+.line10 .price {
+  color: black;
+  margin-left: -5mm;
+  margin-top: -1mm;
+  font-weight: bold;
+}
+
+.line10 span {
+  position: absolute;
+  font-weight: normal;
+}
+
+.line10 .pic10 {
+  margin-top: 2mm;
+}
+
+.line11 {
+  position: absolute;
+  left: 135mm;
+  top: 28mm;
+}
+
+.line11 .secondTitle {
+  color: #125438;
+  margin-left: -7.6mm;
+  margin-top: 1mm;
+}
+
+.line11 .thirdTitle {
+  color: black;
+  margin-left: -12.5mm;
+  margin-top: -1mm;
+}
+
+.line11 .price {
+  color: black;
+  margin-left: -6mm;
+  margin-top: -1mm;
+  font-weight: bold;
+}
+
+.line11 .pic11 {
+  margin-top: 2mm;
+}
+
+.line12 {
+  position: absolute;
+  left: 168mm;
+  top: 28mm;
+}
+
+.line12 .secondTitle {
+  color: #125438;
+  margin-left: -6.8mm;
+  margin-top: 1mm;
+}
+
+.line12 .thirdTitle {
+  color: black;
+  margin-left: -11.5mm;
+  margin-top: -1mm;
+}
+
+.line12 .price {
+  color: black;
+  margin-left: -5mm;
+  margin-top: -1mm;
+  font-weight: bold;
+}
+
+.line12 .pic12 {
+  margin-top: 2mm;
+}
+
+.line13 {
+  position: absolute;
+  left: 102mm;
+  top: 81mm;
+}
+
+.line13 .secondTitle {
+  color: #125438;
+  margin-left: -9.6mm;
+  margin-top: 0mm;
+}
+
+.line13 .thirdTitle {
+  color: black;
+  margin-left: -12mm;
+  margin-top: -2mm;
+}
+
+.line13 .price {
+  color: black;
+  margin-left: -5mm;
+  margin-top: -1mm;
+  font-weight: bold;
+}
+
+.line14 {
+  position: absolute;
+  left: 135mm;
+  top: 81mm;
+}
+
+.line14 .secondTitle {
+  color: #125438;
+  margin-left: -6.9mm;
+  margin-top: 1mm;
+}
+
+.line14 .thirdTitle {
+  color: black;
+  margin-left: -12mm;
+  margin-top: -.5mm;
+}
+
+.line14 .price {
+  color: black;
+  margin-left: -7mm;
+  margin-top: -1mm;
+  font-weight: bold;
+}
+
+.line15 {
+  position: absolute;
+  left: 168mm;
+  top: 81mm;
+}
+
+.line15 .secondTitle {
+  color: #125438;
+  margin-left: -6.9mm;
+  margin-top: 1mm;
+}
+
+.line15 .thirdTitle {
+  color: black;
+  margin-left: -12mm;
+  margin-top: -.5mm;
+}
+
+.line15 .price {
+  color: black;
+  margin-left: -7mm;
+  margin-top: -1mm;
+  font-weight: bold;
+}
+
+.pic13 {
+  position: absolute;
+  left: 5mm;
+  top: 70mm;
+}
+
+.pic14 {
+  position: absolute;
+  left: 37mm;
+  top: 70mm;
+}
+
+.pic15 {
+  position: absolute;
+  left: 70mm;
+  top: 70mm;
+}
+
+.p4Footer {
+  background-color: #ccac7d;
+}
+
+.pageFive {
+  width: 203mm;
+  height: 108mm;
+  position: relative;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+.pageFive .rainbowBar {
+  position: absolute;
+  left: 3.5mm;
+  top: 3mm;
+}
+
+.pageFive .p5Title {
+  font-size: 6.8mm;
+  color: #e23382;
+  font-weight: 900;
+  position: absolute;
+  left: 8mm;
+  top: 4mm;
+}
+
+.pageFive .redBar {
+  background: -webkit-gradient(linear, left top, right top, from(#400), to(#a00));
+  background: linear-gradient(to right, #400 0%, #a00 100%);
+  width: 33.5mm;
+  height: 6mm;
+  position: absolute;
+  left: 2mm;
+  top: 15mm;
+  z-index: 2;
+}
+
+.pageFive .redBar::after {
+  position: absolute;
+  right: -6mm;
+  top: 0;
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 6mm 6mm 0 0;
+  border-color: #a00 transparent transparent transparent;
+}
+
+.pageFive .greenBar {
+  background: -webkit-gradient(linear, left top, right top, from(#040), to(#080));
+  background: linear-gradient(to right, #040 0%, #080 100%);
+  width: 33.5mm;
+  height: 6mm;
+  position: absolute;
+  left: 52mm;
+  top: 15mm;
+  z-index: 2;
+}
+
+.pageFive .greenBar::after {
+  position: absolute;
+  right: -6mm;
+  top: 0;
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 6mm 6mm 0 0;
+  border-color: #080 transparent transparent transparent;
+}
+
+.pageFive .redLeftTop {
+  border: 1mm solid #a00;
+  width: 48mm;
+  height: 40mm;
+  position: absolute;
+  left: 3mm;
+  top: 20mm;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  z-index: 1;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+.pageFive .redLeftTop.bottom {
+  position: absolute;
+  left: 3mm;
+  top: 61mm;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+.pageFive .redLeftTop.bottom .togetheruse3 {
+  width: 32mm;
+  height: 21mm;
+  margin-left: 10mm;
+  margin-top: 0mm;
+}
+
+.pageFive .redLeftTop .togetheruse1 {
+  width: 28mm;
+  height: 28mm;
+  margin-left: 8mm;
+  margin-top: -2mm;
+}
+
+.pageFive .redLeftTop .thinkdes {
+  width: 10mm;
+  height: 6mm;
+  position: absolute;
+  right: 1mm;
+  bottom: 1mm;
+}
+
+.pageFive .greenRightTop {
+  border: 1mm solid #080;
+  width: 48mm;
+  height: 40mm;
+  position: absolute;
+  left: 53mm;
+  top: 20mm;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  z-index: 1;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+.pageFive .greenRightTop.bottom {
+  position: absolute;
+  left: 53mm;
+  top: 61mm;
+  z-index: 2;
+  background: white;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+.pageFive .greenRightTop.bottom .togetheruse4 {
+  width: 30mm;
+  height: 24mm;
+  margin-left: 13mm;
+  margin-top: -2mm;
+}
+
+.pageFive .greenRightTop .togetheruse2 {
+  width: 17mm;
+  height: 25mm;
+  margin-left: 16mm;
+}
+
+.pageFive .greenRightTop .lockdes {
+  width: 14mm;
+  height: 2mm;
+  position: absolute;
+  right: 2mm;
+  bottom: 2mm;
+}
+
+.pageFive .greenBarRight {
+  width: 67mm;
+  height: 12mm;
+  background: -webkit-gradient(linear, left top, right top, from(#040), to(#080));
+  background: linear-gradient(to right, #040 0%, #080 100%);
+  position: absolute;
+  left: 120mm;
+  top: 6.2mm;
+  z-index: 2;
+}
+
+.pageFive .greenBarRight::before {
+  position: absolute;
+  left: -7mm;
+  top: 0;
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0  0  12mm 7mm;
+  border-color: transparent  transparent #040 transparent;
+}
+
+.pageFive .greenBarVertical {
+  background-color: #040;
+  width: 10.9mm;
+  height: 75mm;
+  position: absolute;
+  left: 187mm;
+  top: 15mm;
+  z-index: 2;
+}
+
+.pageFive .greenBarVertical::before {
+  position: absolute;
+  left: 0mm;
+  top: -8.7mm;
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 9mm  0   0mm 11mm;
+  border-color: transparent  transparent   transparent #040;
+}
+
+.pageFive .greenBarVertical::after {
+  position: absolute;
+  left: 0mm;
+  bottom: -10mm;
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10mm 11mm 0   0mm;
+  border-color: #040 white  transparent   transparent;
+}
+
+.pageFive .greenBarLeftRight {
+  width: 48mm;
+  height: 13mm;
+  background: #3b7f32;
+  position: absolute;
+  left: 100mm;
+  top: 83mm;
+  -webkit-transform: skew(-9deg) rotate(-9.5deg);
+          transform: skew(-9deg) rotate(-9.5deg);
+  z-index: 1;
+}
+
+.pageFive .greenBarRightLeft {
+  width: 40mm;
+  height: 13mm;
+  background: -webkit-gradient(linear, left top, right top, color-stop(0, #040), to(#080));
+  background: linear-gradient(to right, #040 0, #080 100%);
+  position: absolute;
+  left: 148mm;
+  top: 83mm;
+  -webkit-transform: skew(12deg) rotate(11.5deg);
+          transform: skew(12deg) rotate(11.5deg);
+  z-index: 1;
+}
+
+.pageFive .togetheruse5 {
+  width: 44mm;
+  height: 33mm;
+  position: absolute;
+  left: 103.8mm;
+  top: 54mm;
+}
+
+.pageFive .togetheruse6 {
+  width: 44mm;
+  height: 33mm;
+  position: absolute;
+  left: 147mm;
+  top: 54mm;
+}
+
+.pageFive .yellowBar {
+  width: 17mm;
+  height: 1mm;
+  background: #f1c34b;
+}
+
+.pageFive .yellowBar.barOne {
+  position: absolute;
+  left: 120mm;
+  bottom: 14mm;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  z-index: 2;
+}
+
+.pageFive .yellowBar.barTwo {
+  position: absolute;
+  left: 120mm;
+  bottom: 10mm;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  z-index: 2;
+}
+
+.pageFive .yellowBar.barThree {
+  position: absolute;
+  right: 0mm;
+  top: 3mm;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  z-index: 1;
+}
+
+.pageFive .yellowBar.barFour {
+  position: absolute;
+  right: 0mm;
+  top: 8mm;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  z-index: 1;
+  width: 20mm;
+}
+
+.limit {
+  height: 6mm;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 3mm;
+  position: absolute;
+  bottom: 2mm;
+  left: 1mm;
+}
+
+.limit p:first-child {
+  display: inline-block;
+  width: 7mm;
+  border-radius: 3mm 0 0 3mm;
+  font-size: 3mm;
+  border: .8mm solid #a00;
+  color: white;
+  background: #a00;
+}
+
+.limit p:nth-child(2) {
+  display: inline-block;
+  width: 10mm;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 3mm;
+  color: #a00;
+  border: .8mm solid #a00;
+  border-left: 0;
+  border-radius: 0 3mm 3mm 0;
+  font-size: 3mm;
+}
+
+.pageSix .leftBlock .bonus .p6SmallTitle, .pageSix .leftBlock .popular .p6SmallTitle, .pageSix .leftBlock .cloth .p6SmallTitle, .pageSix .leftBlock .shoes .p6SmallTitle {
+  color: white;
+  font-family: 'Noto Sans TC', sans-serif;
+  margin-left: 2mm;
+}
+
+.pageSix {
+  width: 203mm;
+  height: 108mm;
+  position: relative;
+  background-color: #d21a26;
+}
+
+.pageSix .rainbowBar {
+  left: 7mm;
+  top: 5mm;
+  position: absolute;
+}
+
+.pageSix .p6Title {
+  font-size: 6.8mm;
+  letter-spacing: .2mm;
+  color: white;
+  position: absolute;
+  left: 13mm;
+  top: 5mm;
+}
+
+.pageSix .p6Title span {
+  font-size: 5mm;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+.pageSix .leftBlock {
+  width: 137mm;
+  height: 84mm;
+  background-color: white;
+  position: absolute;
+  left: 2mm;
+  top: 14mm;
+}
+
+.pageSix .leftBlock .bonus {
+  width: 53mm;
+  height: 5mm;
+  background-color: #d21a26;
+  position: absolute;
+  top: 2mm;
+  left: 2mm;
+}
+
+.pageSix .leftBlock .bonus .p6SmallContent {
+  width: 53mm;
+  height: 34mm;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: 1px solid black;
+  border-top: 0;
+  margin-top: .8mm;
+  font-size: 3.4mm;
+  font-weight: bold;
+  padding-top: 2.8mm;
+  padding-left: 1.7mm;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+.pageSix .leftBlock .popular {
+  width: 79mm;
+  height: 5mm;
+  background-color: #d21a26;
+  position: absolute;
+  top: 2mm;
+  left: 57mm;
+}
+
+.pageSix .leftBlock .cloth {
+  width: 53mm;
+  height: 5mm;
+  background-color: #d21a26;
+  position: absolute;
+  top: 43mm;
+  left: 2mm;
+}
+
+.pageSix .leftBlock .shoes {
+  width: 79mm;
+  height: 5mm;
+  background-color: #d21a26;
+  position: absolute;
+  top: 43mm;
+  left: 57mm;
+}
+
+.pageSix .rightBlock {
+  position: absolute;
+  left: 140mm;
+  top: 5mm;
+}
+
+.pageSix .rightBlock .phoneAd {
+  width: 62mm;
+  height: 94mm;
+}
+
+.pageSix footer {
+  background-color: #e23382;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,291 @@
+.pageFive{
+  width: 203mm;
+  height: 108mm;
+  position: relative;
+  font-family: 'Noto Sans TC', sans-serif;
+  .rainbowBar{
+    position: absolute;
+    left: 3.5mm;
+    top: 3mm;
+  }
+  .p5Title{
+    font-size: 6.8mm;
+    color: #e23382;
+    font-weight: 900;
+    position: absolute;
+    left: 8mm;
+    top: 4mm;
+  }
+  .redBar{
+    background: linear-gradient(to right, #400 0%, #a00 100%);
+    width: 33.5mm;
+    height: 6mm;
+    position: absolute;
+    left: 2mm;
+    top: 15mm;
+    z-index: 2;
+    &::after{
+      position: absolute;
+      right: -6mm;
+      top: 0;
+      content: '';
+      display: block;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 6mm 6mm 0 0;
+      border-color: #a00 transparent transparent transparent;
+    }
+    
+  }
+  .greenBar{
+    background: linear-gradient(to right, #040 0%, #080 100%);
+    width: 33.5mm;
+    height: 6mm;
+    position: absolute;
+    left: 52mm;
+    top: 15mm;
+    z-index: 2;
+    &::after{
+      position: absolute;
+      right: -6mm;
+      top: 0;
+      content: '';
+      display: block;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 6mm 6mm 0 0;
+      border-color: #080 transparent transparent transparent;
+    }
+  }
+  .redLeftTop{
+    border: 1mm solid #a00;
+    width: 48mm;  
+    height: 40mm;
+    position: absolute;
+    left: 3mm;
+    top: 20mm;
+    box-sizing:border-box;
+    z-index: 1;
+    font-family: 'Noto Sans TC', sans-serif;
+    &.bottom{
+      position: absolute;
+      left: 3mm;
+      top: 61mm;
+      font-family: 'Noto Sans TC', sans-serif;
+      .togetheruse3{
+        width: 32mm;
+        height: 21mm;
+        margin-left: 10mm;
+        margin-top: 0mm;
+      }
+    }
+    .togetheruse1{
+      width: 28mm;
+      height: 28mm;
+      margin-left: 8mm;
+      margin-top: -2mm;
+    }
+    .thinkdes{
+      width: 10mm;
+      height: 6mm;
+      position: absolute;
+      right: 1mm;
+      bottom: 1mm;
+    }
+  }
+  .greenRightTop{
+    border: 1mm solid #080;
+    width: 48mm;  
+    height: 40mm;
+    position: absolute;
+    left: 53mm;
+    top: 20mm;
+    box-sizing:border-box;
+    z-index: 1;
+    font-family: 'Noto Sans TC', sans-serif;
+    &.bottom{
+      position: absolute;
+      left: 53mm;
+      top: 61mm;
+      z-index: 2;
+      background: white;
+      font-family: 'Noto Sans TC', sans-serif;
+      .togetheruse4{
+        width: 30mm;
+        height: 24mm;
+        margin-left: 13mm;
+        margin-top: -2mm;
+      }
+    }
+    .togetheruse2{
+      width: 17mm;
+      height: 25mm;
+      margin-left: 16mm;
+    }
+    .lockdes{
+      width: 14mm;
+      height: 2mm;
+      position: absolute;
+      right: 2mm;
+      bottom: 2mm;
+    }
+  }
+  // right part
+  .greenBarRight{
+    width: 67mm;
+    height: 12mm;
+    background: linear-gradient(to right, #040 0%, #080 100%);
+    position: absolute;
+    left: 120mm;
+    top: 6.2mm;
+    z-index: 2;
+    &::before{
+      position: absolute;
+      left: -7mm;
+      top: 0;
+      content: '';
+      display: block;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width:  0  0  12mm 7mm;
+      border-color:   transparent  transparent #040 transparent ;
+    }
+  }
+  .greenBarVertical{
+    background-color: #040;
+    width: 10.9mm;
+    height: 75mm;
+    position: absolute;
+    left: 187mm;
+    top: 15mm;
+    z-index: 2;
+    &::before{
+      position: absolute;
+      left: 0mm;
+      top: -8.7mm;
+      content: '';
+      display: block;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width:  9mm  0   0mm 11mm;
+      border-color:   transparent  transparent   transparent #040;
+    }
+    &::after{
+      position: absolute;
+      left: 0mm;
+      bottom: -10mm;
+      content: '';
+      display: block;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width:  10mm 11mm 0   0mm ;
+      border-color:  #040 white  transparent   transparent ;
+    }
+  }
+  .greenBarLeftRight{
+    width: 48mm;
+    height: 13mm;
+    background: #3b7f32;
+    position: absolute;
+    left: 100mm;
+    top: 83mm;
+    transform: skew(-9deg) rotate(-9.5deg);
+    z-index: 1;
+  }
+  .greenBarRightLeft{
+    width: 40mm;
+    height: 13mm;
+    background: linear-gradient(to right, #040 0, #080 100%);
+    position: absolute;
+    left: 148mm;
+    top: 83mm;
+    transform: skew(12deg) rotate(11.5deg);
+    z-index: 1;
+  }
+  .togetheruse5{
+    width: 44mm;
+    height: 33mm;
+    position: absolute;
+    left: 103.8mm;
+    top: 54mm;
+  }
+  .togetheruse6{
+    width: 44mm;
+    height: 33mm;
+    position: absolute;
+    
+    left: 147mm;
+    top: 54mm;
+  }
+  .yellowBar{
+    width: 17mm;
+    height: 1mm;
+    background:#f1c34b ;
+    &.barOne{
+      position: absolute;
+      left: 120mm;
+      bottom: 14mm;
+      transform:rotate(-45deg);
+      z-index: 2;
+    }
+    &.barTwo{
+      position: absolute;
+      left: 120mm;
+      bottom: 10mm;
+      transform:rotate(-45deg);
+      z-index: 2;
+    }
+    &.barThree{
+      position: absolute;
+      right: 0mm;
+      top: 3mm;
+      transform:rotate(-45deg);
+      z-index: 1;
+    }
+    &.barFour{
+      position: absolute;
+      right: 0mm;
+      top: 8mm;
+      transform:rotate(-45deg);
+      z-index: 1;
+      width: 20mm;
+    }
+  }
+}
+.limit{
+  // width: 16mm;
+  height: 6mm;
+  box-sizing: border-box;
+  // border: .9mm solid #a00;
+  border-radius: 3mm;
+  position: absolute;
+  bottom: 2mm;
+  left: 1mm;
+  p:first-child{
+    display: inline-block;
+    width: 7mm;
+    // box-sizing: border-box;
+    border-radius: 3mm 0 0 3mm ;
+    font-size: 3mm;
+    border:.8mm solid #a00;
+    color: white;
+    background: #a00;
+  }
+  p:nth-child(2){
+    display: inline-block;
+    width: 10mm;
+    // box-sizing: border-box;
+    box-sizing: border-box;
+    font-size:3mm;color:#a00;
+    border:.8mm solid #a00;
+    border-left:0;
+    border-radius:0 3mm 3mm 0;
+    font-size: 3mm;
+  }
+  
+}

@@ -1,0 +1,23 @@
+.wrap{
+  // position: relative;
+  width: 203mm;
+  height: 97mm;
+  margin: auto;
+  // margin-top: 97mm;
+}
+.cover{
+  width: 203mm;
+  height: 97mm;
+  margin:auto;
+  backface-visibility: hidden; 
+  // &.coverRotate{
+  //   transform: translateY(-97mm) rotateX( 180deg );
+  // }
+  // position: absolute;
+  z-index: 3;
+  transition: transform 1.2s;
+}
+.coverImg{
+  width: 203mm;
+  height: 97mm;
+}

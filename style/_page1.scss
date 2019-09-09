@@ -1,0 +1,93 @@
+@font-face {
+  font-family: roundedelegance;
+  src: url(../roundedelegance.ttf);
+}
+.pageOne{
+  // background-color: #a00;
+  width: 203mm;
+  height: 97mm;
+  margin:0 auto;
+  background: linear-gradient(to right, #dfdfdf 0%, white 3.43%, white 91%, #dfdfdf 100%);
+  position: relative;
+  // top: 0;
+  // z-index: 1;
+  // &.pageOneRotate{
+  //   transform: translateY(-97mm);
+  // }
+  // transition:transform 2s;
+}
+.title{
+  width: 67.3mm;
+  height: 8mm;
+  position: absolute;
+  left: 15mm;
+  top: 21mm;
+}
+.technology{
+  color:white;
+  background-color: #b1b1b1;
+  // font-size: 2mm;
+  text-align: center;
+  width: 22.7mm;
+  height: 4.3mm;
+  padding-top: .5mm;
+  box-sizing: border-box;
+  position: absolute;
+  left: 16mm;
+  top: 36mm;
+  line-height: 3.3mm;
+}
+.newProduct{
+  font-size: 5.5mm;
+  font-family: 'Noto Sans TC', sans-serif;
+  position: absolute;
+  left: 16mm;
+  top: 47mm;
+  font-weight: bold;
+  letter-spacing: .5mm;
+  line-height: 5.5mm;
+}
+.detail{
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size:0;
+  font-weight: bold;
+  position: absolute;
+  left:16mm;
+  top:58mm;
+  span{
+    font-size: 7.3mm;
+    letter-spacing: 1mm;
+    margin-right: 4.8mm;
+  }
+}
+.NT{
+  font-family: roundedelegance;
+  font-size: 11mm;
+  color: #1e62a3;
+  position: absolute;
+  left:17mm;
+  top: 71mm;
+  letter-spacing: 1.2mm;
+  font-weight: bold;
+  font-stretch: ultra-expanded;
+  .NTimg{
+    width: 63.6mm;
+    height: 12.3mm;
+  }
+}
+.sendCoupon{
+  font-family: roundedelegance,'Noto Sans TC';
+  position: absolute;
+  left: 16.8mm;
+  top: 83.2mm;
+  font-size: 5mm;
+  color: #1b68b0;
+  letter-spacing: 0.7mm;
+}
+.topic{
+  width: 82mm;
+  height: 60.6mm;
+  position: absolute;
+  top: 23.6mm;
+  right: 0;
+}

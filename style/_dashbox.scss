@@ -1,0 +1,34 @@
+.dashBox{
+  width: 25.5mm;
+  height: 31.5mm;
+  margin-top: 1.8mm;
+  display: inline-block;
+  box-sizing: border-box;
+  border: 0.3mm dashed #5c5c5c;
+  padding-top: 1mm;
+  padding-left: 1mm;
+  position: relative;
+  font-family: 'Noto Sans TC', sans-serif;
+  vertical-align: top;
+  .qrcode{
+    width: 8mm;
+    height: 8mm;
+    margin-top: 1mm;
+  }
+  .p6down1,.p6down2,.p6down3,.p6down4,.p6down5,.p6down6,.p6down7,.p6down8{
+    width: 10mm;
+    height: 10mm;
+    position: absolute;
+    right: 1mm;
+  }
+  .p6down1{
+    margin-top: 1mm;
+  }
+  .p6des1,.p6des2,.p6des3,.p6des4,.p6des5,.p6des6,.p6des7,.p6des8{
+    width: 23mm;
+    height: 16.5mm;
+  }
+  .p6des3{
+    margin-top: 1mm;
+  }
+}
